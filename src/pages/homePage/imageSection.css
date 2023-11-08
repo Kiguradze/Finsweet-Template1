@@ -1,0 +1,43 @@
+.image-section {
+  height: 911px;
+  margin-top: 128px;
+  background-image: url(../../assets/homepageBackgroundImage.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-section .container {
+  height: 100%;
+  position: relative;
+}
+
+.content-block {
+  width: 95%;
+  height: 303px;
+  padding: 96px;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+  transform: translateX(240px);
+  background-color: rgba(35, 46, 209, 1);
+}
+
+.content-block h1 {
+  width: 298px;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 600;
+  letter-spacing: -3px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.content-block p {
+  width: 589px;
+  font-size: 18px;
+  line-height: 30.78px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
