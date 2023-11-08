@@ -18,4 +18,9 @@
 
 .logo svg path {
   fill: rgba(57, 65, 73, 0.7);
+  transition: all 0.2s;
+}
+
+.logo:hover svg path {
+  fill: rgba(57, 65, 73, 1);
 }

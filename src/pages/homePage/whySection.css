@@ -1,0 +1,143 @@
+.why-section {
+  max-width: 1176px;
+  height: 590px;
+  margin: 112px auto 0 auto;
+}
+
+.why-section .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 116px;
+}
+
+.why-left {
+  width: calc(1176px - 552px);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.why-left span {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+  color: rgba(35, 46, 209, 1);
+}
+
+.why-left h1 {
+  max-width: 457px;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 600;
+  letter-spacing: -3px;
+}
+
+.why-left p {
+  max-width: 512px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgba(91, 91, 91, 1);
+}
+
+.why-right {
+  width: 552px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first-row {
+  display: flex;
+  column-gap: 32px;
+}
+
+.second-row {
+  display: flex;
+  column-gap: 32px;
+}
+
+.why-box {
+  width: 260px;
+  height: 260px;
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  border-radius: 12px;
+}
+
+.why-box svg {
+  transition: all 0.2s;
+}
+
+.why-box p {
+  transition: all 0.2s 0.125s;
+}
+
+.why-box:hover svg {
+  scale: 1.2;
+}
+
+.why-box:hover p {
+  scale: 1.1;
+}
+
+.why-box p {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.why-box1 {
+  margin-top: 38px;
+  background: linear-gradient(
+    180deg,
+    rgba(182, 186, 255, 0.2) 0%,
+    rgba(35, 46, 209, 0.2) 100%
+  );
+}
+
+.why-box1 p {
+  color: rgba(35, 46, 209, 1);
+}
+
+.why-box2 {
+  background: linear-gradient(
+    180deg,
+    rgba(182, 186, 255, 0.2) 0%,
+    rgba(35, 46, 209, 0.2) 100%
+  );
+}
+
+.why-box2 p {
+  color: rgba(35, 46, 209, 1);
+}
+
+.why-box3 {
+  margin-top: 32px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 217, 208, 0.2) 0%,
+    rgba(242, 76, 39, 0.2) 100%
+  );
+}
+
+.why-box3 p {
+  color: rgba(242, 76, 39, 1);
+}
+
+.why-box4 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 217, 208, 0.2) 0%,
+    rgba(242, 76, 39, 0.2) 100%
+  );
+}
+
+.why-box4 p {
+  color: rgba(242, 76, 39, 1);
+}

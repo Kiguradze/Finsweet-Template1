@@ -1,14 +1,9 @@
 import "./logoSection.css";
-import logo1 from "../../assets/logoipsum.svg";
-import logo2 from "../../assets/logoipsum2.svg";
-import logo3 from "../../assets/logoipsum3.svg";
-import logo4 from "../../assets/logoipsum4.svg";
-import logo5 from "../../assets/logoipsum5.svg";
 
 const LogoSection = () => {
   return (
-    <div className="container">
-      <section className="logo-section">
+    <section className="logo-section">
+      <div className="container">
         <p>10,000+ clients who are getting more replies</p>
         <div className="logos">
           <div className="logo">
@@ -92,8 +87,8 @@ const LogoSection = () => {
             </svg>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
