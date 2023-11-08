@@ -1,0 +1,21 @@
+.logo-section {
+  margin-top: 96px;
+  text-align: center;
+}
+
+.logo-section p {
+  margin-bottom: 48px;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(91, 91, 91, 1);
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo svg path {
+  fill: rgba(57, 65, 73, 0.7);
+}

@@ -1,3 +1,4 @@
+import "./nav.css";
 import logo from "../../../assets/logo.png";
 
 const Nav = () => {
