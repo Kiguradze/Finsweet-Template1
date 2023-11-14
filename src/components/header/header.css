@@ -1,6 +1,8 @@
 .header {
   height: 910px;
   background: linear-gradient(rgba(35, 46, 209, 0.1), rgba(35, 46, 209, 0.1));
+  position: relative;
+  overflow: hidden;
 }
 
 .hero-section {
@@ -61,4 +63,24 @@
 
 .hero-img {
   transform: translateX(56px);
+}
+
+.hero-background {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 540px;
+  height: 593px;
+  background: rgba(35, 46, 209, 0.04);
+  z-index: -1;
+}
+
+.hero-background2 {
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+  width: 680px;
+  height: 861px;
+  background: rgba(35, 46, 209, 0.03);
+  z-index: -2;
 }

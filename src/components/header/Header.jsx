@@ -25,6 +25,8 @@ const Header = () => {
           <div className="hero-img">
             <img src={heroImage} alt="hero section image" />
           </div>
+          <div className="hero-background"></div>
+          <div className="hero-background2"></div>
         </div>
       </div>
     </div>

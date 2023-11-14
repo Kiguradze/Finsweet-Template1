@@ -23,6 +23,7 @@
   right: 0;
   transform: translateX(240px);
   background-color: rgba(35, 46, 209, 1);
+  border-top-left-radius: 12px;
 }
 
 .content-block h1 {

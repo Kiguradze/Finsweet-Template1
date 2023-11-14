@@ -68,6 +68,11 @@
   flex-direction: column;
   gap: 55px;
   border-radius: 12px;
+  transition: all 0.2s;
+}
+
+.why-box:hover {
+  box-shadow: 0 3px 10px 3px rgba(0, 0, 0, 0.05);
 }
 
 .why-box svg {
