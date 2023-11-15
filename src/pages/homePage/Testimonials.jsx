@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
@@ -25,9 +25,8 @@ const Testimonials = () => {
           className="mySwiper"
         >
           {data.map((testimonial, index) => (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <Testimonial
-                key={index}
                 img={testimonial.img}
                 name={testimonial.name}
                 desk={testimonial.desk}
