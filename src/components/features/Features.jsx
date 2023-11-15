@@ -2,7 +2,6 @@ import { useState } from "react";
 import featureData from "../../featureData/featureData";
 import FeatureCard from "../featureCard/FeatureCard";
 import "./features.css";
-import feature3Asset from "../../assets/Feature 3 Asset.png";
 
 const Features = () => {
   const [data, setData] = useState(featureData);

@@ -4,6 +4,7 @@ import LogoSection from "./LogoSection";
 import WhySection from "./WhySection";
 import ImageSection from "./ImageSection";
 import Features from "../../components/features/Features";
+import Testimonials from "./Testimonials";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <WhySection />
       <ImageSection />
       <Features />
+      <Testimonials />
     </>
   );
 };

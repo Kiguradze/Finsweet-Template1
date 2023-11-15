@@ -12,7 +12,10 @@ const FeatureCard = ({
   return (
     <div
       className="feature-card"
-      style={{ background: background, borderRadius: borderRadius }}
+      style={{
+        background: background,
+        borderRadius: borderRadius,
+      }}
     >
       <img src={img} alt="" />
       <span>{span}</span>
