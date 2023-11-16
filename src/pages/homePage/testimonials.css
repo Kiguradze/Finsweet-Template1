@@ -2,10 +2,6 @@
   margin-top: 128px;
 }
 
-.testimonials .container {
-  position: relative;
-}
-
 .testimonials h1 {
   font-size: 48px;
   font-weight: 600;
@@ -15,27 +11,10 @@
   margin-bottom: 48px;
 }
 
-.testimonials-flex {
-  display: flex;
-  justify-content: space-between;
-  gap: 32px;
-}
-
 .swiper {
-  position: static;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-  position: absolute; /* Position the arrows outside the container */
-  top: 70%; /* Vertically center the arrows */
-  transform: translateY(-50%); /* Adjust for vertical centering */
-}
-
-.swiper-button-prev {
-  left: -50px; /* Position the previous arrow 50px outside the left edge */
+  max-width: 1440px;
 }
 
 .swiper-button-next {
-  right: -25px; /* Position the next arrow 50px outside the right edge */
+  right: 35px;
 }
