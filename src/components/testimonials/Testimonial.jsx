@@ -1,18 +1,6 @@
-import { useState } from "react";
 import "./testimonial.css";
 
 const Testimonial = ({ img, name, desk }) => {
-  const [rating, setRating] = useState(0);
-
-  const handleHover = (starIndex) => {
-    setRating(starIndex + 1);
-  };
-
-  const handleClick = (starIndex) => {
-    setRating(starIndex + 1);
-
-    // Save the rating to your backend
-  };
   return (
     <div className="testimonial">
       <div className="person">

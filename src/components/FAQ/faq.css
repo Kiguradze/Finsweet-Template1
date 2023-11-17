@@ -1,0 +1,76 @@
+.faq {
+  max-width: 934px;
+  margin: 128px auto 0 auto;
+}
+
+.faq .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.faq-list {
+  margin-top: 93px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  cursor: pointer;
+}
+
+.list-number {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 41px;
+  color: rgba(91, 91, 91, 1);
+}
+
+.list-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  overflow: hidden;
+}
+
+.list-name {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.list-desk {
+  /* margin-bottom: 48px; */
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgba(91, 91, 91, 1);
+
+  height: 0;
+  margin-bottom: 0;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.2s;
+  visibility: hidden;
+}
+
+.active {
+  height: auto;
+  margin-bottom: 48px;
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.active .list-number {
+  color: rgba(0, 16, 255, 1);
+}
+
+.accordion-item {
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+  border-bottom: 1px solid rgba(234, 234, 234, 1);
+}

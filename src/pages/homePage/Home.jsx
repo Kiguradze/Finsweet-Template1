@@ -5,6 +5,7 @@ import WhySection from "./WhySection";
 import ImageSection from "./ImageSection";
 import Features from "../../components/features/Features";
 import Testimonials from "./Testimonials";
+import Faq from "../../components/FAQ/Faq";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <ImageSection />
       <Features />
       <Testimonials />
+      <Faq />
     </>
   );
 };
