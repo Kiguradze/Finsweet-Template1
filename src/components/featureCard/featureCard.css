@@ -1,7 +1,8 @@
 .feature-card {
-  /* width: 731px; */
+  max-width: 670px;
   height: 523px;
   display: flex;
+  /* flex-shrink: 1; */
   flex-direction: column;
   padding: 126px;
 }
@@ -48,5 +49,34 @@
   transform: translateX(10px);
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 1380px) {
+  .feature-card {
+    max-width: 50%;
+    height: auto;
+    padding: 32px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .feature-card span {
+    font-size: 16px;
+  }
+  .feature-card h1 {
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .feature-card p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .feature-card a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feature-card {
+    max-width: 100%;
+  }
 }

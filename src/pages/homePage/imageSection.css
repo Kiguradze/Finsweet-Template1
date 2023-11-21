@@ -73,6 +73,7 @@
   .content-block {
     position: static;
     flex-direction: column;
+    border-radius: 12px;
   }
 
   .content-block h1,

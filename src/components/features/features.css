@@ -2,8 +2,21 @@
   margin-top: 188px;
 }
 
-.feature-cards {
+/* .feature-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 128px;
+} */
+
+.feature-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 128px;
+}
+
+@media screen and (max-width: 768px) {
+  .feature-cards {
+    row-gap: 48px;
+  }
 }
