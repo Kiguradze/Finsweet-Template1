@@ -15,7 +15,7 @@ const WhySection = () => {
         </div>
 
         <div className="why-right">
-          <div className="first-row">
+          <div className="row first-row">
             <div className="why-box why-box1">
               <svg
                 width="40"
@@ -56,7 +56,7 @@ const WhySection = () => {
               </p>
             </div>
           </div>
-          <div className="second-row">
+          <div className="row second-row">
             <div className="why-box why-box3">
               <svg
                 width="48"

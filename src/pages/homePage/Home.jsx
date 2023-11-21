@@ -14,9 +14,9 @@ const Home = () => {
       <LogoSection />
       <WhySection />
       <ImageSection />
-      <Features />
+      {/* <Features />
       <Testimonials />
-      <Faq />
+      <Faq /> */}
     </>
   );
 };

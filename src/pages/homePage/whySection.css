@@ -1,6 +1,6 @@
 .why-section {
   max-width: 1176px;
-  height: 590px;
+  min-height: 590px;
   margin: 112px auto 0 auto;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .why-left {
-  width: calc(1176px - 552px);
+  max-width: calc(1176px - 552px);
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -145,4 +145,40 @@
 
 .why-box4 p {
   color: rgba(242, 76, 39, 1);
+}
+
+@media screen and (max-width: 1150px) {
+  .why-section .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .why-left {
+    align-items: center;
+    text-align: center;
+  }
+
+  .why-left h1 {
+    font-size: 32px;
+  }
+
+  .why-left p {
+    font-size: 16px;
+  }
+
+  .why-right {
+    width: 100%;
+    align-items: center;
+  }
+
+  .row {
+    width: 100%;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+
+  .why-box {
+    width: 100%;
+  }
 }

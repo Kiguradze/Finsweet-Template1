@@ -1,7 +1,8 @@
 import "./nav.css";
 import logo from "../../../assets/logo.png";
+import { RxHamburgerMenu } from "react-icons/rx";
 
-const Nav = () => {
+const Nav = ({ handleClick, active }) => {
   return (
     <nav>
       <div className="left-row">
@@ -43,6 +44,10 @@ const Nav = () => {
         </ul>
       </div>
 
+      <RxHamburgerMenu
+        className={`hamburger ${active ? "isActive" : ""}`}
+        onClick={handleClick}
+      />
       <div className="right-row">
         <button>Clone Project</button>
       </div>

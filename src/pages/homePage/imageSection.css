@@ -42,3 +42,41 @@
   font-weight: 500;
   color: rgba(255, 255, 255, 1);
 }
+
+@media screen and (max-width: 1400px) {
+  .content-block {
+    width: 100%;
+    height: fit-content;
+    padding: 32px;
+    bottom: 0;
+    transform: translateX(0);
+    justify-content: space-around;
+    gap: 32px;
+  }
+
+  .content-block h1 {
+    font-size: 36px;
+    line-height: 30px;
+  }
+
+  .content-block p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image-section {
+    height: auto;
+    background-image: none;
+  }
+  .content-block {
+    position: static;
+    flex-direction: column;
+  }
+
+  .content-block h1,
+  .content-block p {
+    width: auto;
+  }
+}

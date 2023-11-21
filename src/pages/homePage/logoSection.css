@@ -12,6 +12,7 @@
 
 .logos {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -23,4 +24,11 @@
 
 .logo:hover svg path {
   fill: rgba(57, 65, 73, 1);
+}
+
+@media screen and (max-width: 940px) {
+  .logos {
+    justify-content: space-around;
+    gap: 20px;
+  }
 }
