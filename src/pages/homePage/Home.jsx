@@ -16,7 +16,7 @@ const Home = () => {
       <ImageSection />
       <Features />
       <Testimonials />
-      {/* <Faq /> */}
+      <Faq />
     </>
   );
 };
