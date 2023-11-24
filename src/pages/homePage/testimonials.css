@@ -11,10 +11,9 @@
   margin-bottom: 48px;
 }
 
-.swiper {
-  max-width: 1440px;
-}
-
-.swiper-button-next {
-  right: 35px;
+@media screen and (max-width: 375px) {
+  .testimonials h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
 }

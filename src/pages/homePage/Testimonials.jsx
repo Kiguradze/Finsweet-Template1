@@ -11,16 +11,36 @@ import "./testimonials.css";
 const Testimonials = () => {
   const [data, setData] = useState(testimonialData);
 
+  const breakpoints = {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    // when window width is >= 480px
+    600: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    1020: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  };
+
   return (
     <section className="testimonials">
       <div className="container">
         <h1>Customer Testimonials</h1>
         <Swiper
-          slidesPerView={3}
+          slidesPerView={1}
+          spaceBetween={10}
+          // slidesPerView={3}
           pagination={{
             type: "fraction",
           }}
           navigation={true}
+          breakpoints={breakpoints}
           modules={[Pagination, Navigation]}
           className="mySwiper"
         >

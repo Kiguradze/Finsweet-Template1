@@ -18,11 +18,11 @@ const testimonialData = [
     name: "Andy Smith",
     desk: "Curabitur sed tincidunt dui. Suspendisse dignissim consequat enim eu feugiat. Suspendisse vehicula sem non enim tristique, in rhoncus nulla.",
   },
-  // {
-  //   img: TestimonialImage3,
-  //   name: "Andy Smith",
-  //   desk: "Curabitur sed tincidunt dui. Suspendisse dignissim consequat enim eu feugiat. Suspendisse vehicula sem non enim tristique, in rhoncus nulla.",
-  // },
+  {
+    img: TestimonialImage3,
+    name: "Andy Smith",
+    desk: "Curabitur sed tincidunt dui. Suspendisse dignissim consequat enim eu feugiat. Suspendisse vehicula sem non enim tristique, in rhoncus nulla.",
+  },
 ];
 
 export default testimonialData;
