@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { IoIosClose } from "react-icons/io";
 import Nav from "./nav/Nav";
 import "./header.css";
@@ -10,6 +10,18 @@ const Header = () => {
   const handleClick = () => {
     setIsActive(!isActive);
   };
+
+  useEffect(() => {
+    if (isActive) {
+      document.body.classList.add("disable-scroll");
+    } else {
+      document.body.classList.remove("disable-scroll");
+    }
+
+    return () => {
+      document.body.classList.remove("disable-scroll");
+    };
+  }, [isActive]);
 
   return (
     <div className="header">
