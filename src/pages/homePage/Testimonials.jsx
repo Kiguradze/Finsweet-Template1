@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import testimonialData from "../../testimonialsData/testimonialData";
-import Testimonial from "../../components/testimonials/Testimonial";
+import Testimonial from "../../components/testimonial/Testimonial";
 import "./testimonials.css";
 
 const Testimonials = () => {

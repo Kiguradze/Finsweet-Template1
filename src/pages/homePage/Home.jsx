@@ -6,6 +6,7 @@ import ImageSection from "./ImageSection";
 import Features from "../../components/features/Features";
 import Testimonials from "./Testimonials";
 import Faq from "../../components/FAQ/Faq";
+import Footer from "../../components/footer/Footer";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Features />
       <Testimonials />
       <Faq />
+      <Footer />
     </>
   );
 };

@@ -1,6 +1,6 @@
 .faq {
   max-width: 934px;
-  margin: 128px auto 0 auto;
+  margin: 128px auto 282px auto;
 }
 
 .faq .container {
@@ -11,19 +11,18 @@
 
 .faq-list {
   margin-top: 93px;
-}
-
-.list-item {
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+.list-item {
   cursor: pointer;
 }
 
 .list-number {
   font-size: 24px;
   font-weight: 500;
-  line-height: 41px;
   color: rgba(91, 91, 91, 1);
 }
 
@@ -70,7 +69,6 @@
 
 .accordion-item {
   display: flex;
-  align-items: baseline;
   gap: 40px;
   border-bottom: 1px solid rgba(234, 234, 234, 1);
 }
