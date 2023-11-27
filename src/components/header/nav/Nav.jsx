@@ -1,8 +1,7 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { RxHamburgerMenu } from "react-icons/rx";
 import "./nav.css";
 import logo from "../../../assets/logo.png";
-import { RxHamburgerMenu } from "react-icons/rx";
-import { NavLink } from "react-router-dom";
 
 const Nav = ({ handleClick, active }) => {
   return (

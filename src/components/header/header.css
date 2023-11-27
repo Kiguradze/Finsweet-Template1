@@ -1,5 +1,5 @@
 .header {
-  height: 910px;
+  /* height: 910px; */
   background: linear-gradient(rgba(35, 46, 209, 0.1), rgba(35, 46, 209, 0.1));
   position: relative;
   overflow: hidden;
@@ -42,6 +42,7 @@
 
 .hero-section {
   margin-top: 116px;
+  margin-bottom: 236px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -97,7 +98,7 @@
 }
 
 .hero-img {
-  transform: translateX(56px);
+  transform: translate(56px, 56px);
 }
 
 .hero-background {
@@ -146,6 +147,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .hero-section {
+    margin-bottom: 0px;
+  }
   .hero-text h1 {
     font-size: 32px;
     line-height: 36px;

@@ -2,9 +2,17 @@ import { useState, useEffect } from "react";
 import { IoIosClose } from "react-icons/io";
 import Nav from "./nav/Nav";
 import "./header.css";
-import heroImage from "../../assets/heroImage.png";
 
-const Header = () => {
+const Header = ({
+  title,
+  desk,
+  image,
+  buttonLabel1,
+  buttonLabel2,
+  background,
+  date,
+  link,
+}) => {
   const [isActive, setIsActive] = useState(false);
 
   const handleClick = () => {
@@ -68,23 +76,26 @@ const Header = () => {
 
         <div className="hero-section">
           <div className="hero-text">
-            <h1>Run Your Entire Customer Support Remotely</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum vitae nunc vitae neque
-            </p>
+            <h1>{title}</h1>
+            <p>{desk}</p>
 
-            <div className="buttons">
-              <button className="free-btn">Get Started For Free</button>
-              <button className="price-btn">Pricing</button>
-            </div>
+            {buttonLabel1 && buttonLabel2 && (
+              <div className="buttons">
+                <button className="free-btn">{buttonLabel1}</button>
+                <button className="price-btn">{buttonLabel2}</button>
+              </div>
+            )}
           </div>
 
           <div className="hero-img">
-            <img src={heroImage} alt="hero section image" />
+            <img src={image} alt="hero section image" />
           </div>
-          <div className="background hero-background"></div>
-          <div className="background hero-background2"></div>
+          {background && (
+            <>
+              <div className="background hero-background"></div>
+              <div className="background hero-background2"></div>
+            </>
+          )}
         </div>
       </div>
     </div>
