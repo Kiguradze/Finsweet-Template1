@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 import "./nav.css";
 import logo from "../../../assets/logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { NavLink } from "react-router-dom";
 
 const Nav = ({ handleClick, active }) => {
   return (
@@ -12,34 +14,34 @@ const Nav = ({ handleClick, active }) => {
 
         <ul className="nav-list">
           <li className="list-item">
-            <a className="nav-link" href="#">
+            <NavLink to="/" exact className="nav-link">
               Home
-            </a>
+            </NavLink>
           </li>
           <li className="list-item">
-            <a className="nav-link" href="#">
+            <NavLink to="/product" className="nav-link">
               Product
-            </a>
+            </NavLink>
           </li>
           <li className="list-item">
-            <a className="nav-link" href="#">
+            <NavLink to="/pricing" className="nav-link">
               Pricing
-            </a>
+            </NavLink>
           </li>
           <li className="list-item">
-            <a className="nav-link" href="#">
+            <NavLink to="/about" className="nav-link">
               About Us
-            </a>
+            </NavLink>
           </li>
           <li className="list-item">
-            <a className="nav-link" href="#">
+            <NavLink to="/contact" className="nav-link">
               Contact
-            </a>
+            </NavLink>
           </li>
           <li className="list-item">
-            <a className="nav-link" href="#">
+            <NavLink to="/blog" className="nav-link">
               Blog
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>
@@ -48,6 +50,7 @@ const Nav = ({ handleClick, active }) => {
         className={`hamburger ${active ? "isActive" : ""}`}
         onClick={handleClick}
       />
+
       <div className="right-row">
         <button>Clone Project</button>
       </div>

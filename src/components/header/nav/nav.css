@@ -46,6 +46,10 @@ nav {
   color: #232ed1;
 }
 
+.nav-link.active {
+  color: #232ed1;
+}
+
 .right-row {
   padding: 16px 0;
 }
