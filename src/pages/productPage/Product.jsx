@@ -4,6 +4,8 @@ import productHeroImage from "../../assets/productHeroImage.png";
 import CustomerSupport from "../../components/customerSupport/CustomerSupport";
 import Features from "../../components/features/Features";
 import productFeatureData from "../../data/productFeatureData/productFeatureData";
+import Footer from "../../components/footer/Footer";
+import HappySection from "./HappySection";
 
 const Product = () => {
   return (
@@ -15,6 +17,8 @@ const Product = () => {
       />
       <CustomerSupport />
       <Features data={productFeatureData} />
+      <HappySection />
+      <Footer />
     </>
   );
 };
