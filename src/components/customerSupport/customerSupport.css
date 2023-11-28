@@ -1,0 +1,37 @@
+.customer-support {
+  margin-top: 128px;
+}
+
+.customer-support-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 113px;
+}
+
+.logo-background {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    rgba(35, 46, 209, 0.03) 0%,
+    rgba(35, 46, 209, 0.15) 100%
+  );
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+
+.customer-support-grid h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.customer-support-grid p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgba(91, 91, 91, 1);
+}
