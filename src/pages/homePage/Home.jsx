@@ -8,6 +8,7 @@ import Testimonials from "./Testimonials";
 import Faq from "../../components/FAQ/Faq";
 import Footer from "../../components/footer/Footer";
 import heroImage from "../../assets/heroImage.png";
+import featureData from "../../data/featureData/featureData";
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
       <LogoSection />
       <WhySection />
       <ImageSection />
-      <Features />
+      <Features data={featureData} />
       <Testimonials />
       <Faq />
       <Footer />

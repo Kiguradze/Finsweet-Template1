@@ -2,6 +2,8 @@ import React from "react";
 import Header from "../../components/header/Header";
 import productHeroImage from "../../assets/productHeroImage.png";
 import CustomerSupport from "../../components/customerSupport/CustomerSupport";
+import Features from "../../components/features/Features";
+import productFeatureData from "../../data/productFeatureData/productFeatureData";
 
 const Product = () => {
   return (
@@ -12,6 +14,7 @@ const Product = () => {
         image={productHeroImage}
       />
       <CustomerSupport />
+      <Features data={productFeatureData} />
     </>
   );
 };

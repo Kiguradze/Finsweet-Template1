@@ -1,16 +1,12 @@
-import { useState } from "react";
-import featureData from "../../featureData/featureData";
 import FeatureCard from "../featureCard/FeatureCard";
 import "./features.css";
 
-const Features = () => {
-  const [data, setData] = useState(featureData);
-
+const Features = ({ data }) => {
   return (
     <section className="features">
       <div className="container">
         <div className="feature-cards">
-          {data.map((card, index) => (
+          {data?.map((card, index) => (
             <FeatureCard
               key={index}
               img={card.img}

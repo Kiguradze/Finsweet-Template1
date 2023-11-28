@@ -1,6 +1,6 @@
-import feature3Asset from "../assets/Feature 3 Asset.png";
-import feature4Asset from "../assets/Feature 4 Asset.png";
-import feature5Asset from "../assets/Feature 5 Asset.png";
+import feature3Asset from "../../assets/Feature 3 Asset.png";
+import feature4Asset from "../../assets/Feature 4 Asset.png";
+import feature5Asset from "../../assets/Feature 5 Asset.png";
 
 const featureData = [
   {

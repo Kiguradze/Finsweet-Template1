@@ -1,5 +1,5 @@
 import { useState } from "react";
-import faqData from "../../FAQData/faqData";
+import faqData from "../../data/FAQData/faqData";
 import "./faq.css";
 
 const Faq = () => {

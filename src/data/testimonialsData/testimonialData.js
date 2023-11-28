@@ -1,6 +1,6 @@
-import TestimonialImage from "../assets/TestimonialImage.png";
-import TestimonialImage2 from "../assets/TestimonialImage2.png";
-import TestimonialImage3 from "../assets/TestimonialImage3.png";
+import TestimonialImage from "../../assets/TestimonialImage.png";
+import TestimonialImage2 from "../../assets/TestimonialImage2.png";
+import TestimonialImage3 from "../../assets/TestimonialImage3.png";
 
 const testimonialData = [
   {
