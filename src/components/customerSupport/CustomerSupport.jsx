@@ -8,7 +8,7 @@ const CustomerSupport = () => {
   return (
     <section className="customer-support">
       <div className="container">
-        <h1></h1>
+        <h1>Get the best out of your customer support with Finsweet</h1>
         <div className="customer-support-grid">
           <div className="customer-support-card">
             <div className="logo-background">

@@ -2,6 +2,15 @@
   margin-top: 128px;
 }
 
+.customer-support h1 {
+  max-width: 782px;
+  margin-bottom: 80px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -1px;
+}
+
 .customer-support-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -34,4 +43,18 @@
   font-weight: 500;
   line-height: 30px;
   color: rgba(91, 91, 91, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .customer-support h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .customer-support-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
