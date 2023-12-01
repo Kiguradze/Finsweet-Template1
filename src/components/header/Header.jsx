@@ -75,7 +75,7 @@ const Header = ({
 
         <Nav handleClick={handleClick} active={isActive} />
 
-        <div className="hero-section">
+        <div className={image ? "hero-section" : "hero-section without-image"}>
           <div className="hero-text">
             <h1>{title}</h1>
             <p>{desk}</p>
@@ -88,9 +88,11 @@ const Header = ({
             )}
           </div>
 
-          <div className="hero-img">
-            <img src={image} alt="hero section image" />
-          </div>
+          {image && (
+            <div className="hero-img">
+              <img src={image} />
+            </div>
+          )}
           {background && (
             <>
               <div className="background hero-background"></div>
