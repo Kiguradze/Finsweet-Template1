@@ -1,0 +1,13 @@
+.price-cards {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+}
+
+.price-cards .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
