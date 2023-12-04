@@ -1,13 +1,31 @@
 .price-cards {
   width: 100%;
-  position: absolute;
-  top: 50%;
+  height: 500px;
 }
 
 .price-cards .container {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 40px;
+  position: absolute;
+  top: 50%;
+}
+
+@media screen and (max-width: 1300px) {
+  .price-cards {
+    margin-bottom: 750px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .price-cards {
+    height: unset;
+    margin-bottom: unset;
+  }
+  .price-cards .container {
+    position: unset;
+  }
 }
