@@ -1,6 +1,7 @@
 .price-cards {
   width: 100%;
   height: 500px;
+  position: relative;
 }
 
 .price-cards .container {
@@ -11,7 +12,9 @@
   justify-content: center;
   gap: 40px;
   position: absolute;
-  top: 50%;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
 }
 
 @media screen and (max-width: 1300px) {
@@ -27,5 +30,6 @@
   }
   .price-cards .container {
     position: unset;
+    transform: translate(0, 0);
   }
 }

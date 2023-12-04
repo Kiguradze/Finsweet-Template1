@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/header/Header";
 import PriceCard from "../../components/priceCard/PriceCard";
 import Faq from "../../components/FAQ/Faq";
+import Testimonials from "../../pages/homePage/Testimonials";
 import "./pricing.css";
 import data from "../../data/priceCardsData/priceCardsData";
 
@@ -28,6 +29,7 @@ const Pricing = () => {
         </div>
       </div>
       <Faq />
+      <Testimonials />
     </>
   );
 };
