@@ -21,6 +21,10 @@
   .price-cards {
     margin-bottom: 750px;
   }
+
+  .price-cards .container {
+    top: -10%;
+  }
 }
 
 @media screen and (max-width: 768px) {
