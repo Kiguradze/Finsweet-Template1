@@ -1,8 +1,9 @@
-import { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
-import { IoIosClose } from "react-icons/io";
+import { useState } from "react";
+// import { NavLink } from "react-router-dom";
+// import { IoIosClose } from "react-icons/io";
 import Nav from "./nav/Nav";
 import "./header.css";
+import Menu from "../menu/Menu";
 
 const Header = ({
   title,
@@ -20,58 +21,59 @@ const Header = ({
     setIsActive(!isActive);
   };
 
-  useEffect(() => {
-    if (isActive) {
-      document.body.classList.add("disable-scroll");
-    } else {
-      document.body.classList.remove("disable-scroll");
-    }
+  // useEffect(() => {
+  //   if (isActive) {
+  //     document.body.classList.add("disable-scroll");
+  //   } else {
+  //     document.body.classList.remove("disable-scroll");
+  //   }
 
-    return () => {
-      document.body.classList.remove("disable-scroll");
-    };
-  }, [isActive]);
+  //   return () => {
+  //     document.body.classList.remove("disable-scroll");
+  //   };
+  // }, [isActive]);
 
   return (
     <div className="header">
       <div className="container">
-        <div className={`menu ${isActive ? "isActive" : ""}`}>
+        <Menu isActive={isActive} handleClick={handleClick} />
+        {/* <div className={`menu ${isActive ? "isActive" : ""}`}>
           <nav className="menu-items">
             <ul className="menu-list" onClick={handleClick}>
               <li className="menu-list-item">
-                <NavLink to="/" exact className="menu-link" href="#">
+                <NavLink to="/" exact className="menu-link">
                   Home
                 </NavLink>
               </li>
               <li className="menu-list-item">
-                <NavLink to="/product" className="menu-link" href="#">
+                <NavLink to="/product" className="menu-link">
                   Product
                 </NavLink>
               </li>
               <li className="menu-list-item">
-                <NavLink to="/pricing" className="menu-link" href="#">
+                <NavLink to="/pricing" className="menu-link">
                   Pricing
                 </NavLink>
               </li>
               <li className="menu-list-item">
-                <NavLink to="/about" className="menu-link" href="#">
+                <NavLink to="/about" className="menu-link">
                   About Us
                 </NavLink>
               </li>
               <li className="menu-list-item">
-                <NavLink to="/contact" className="menu-link" href="#">
+                <NavLink to="/contact" className="menu-link">
                   Contact
                 </NavLink>
               </li>
               <li className="menu-list-item">
-                <NavLink to="/blog" className="menu-link" href="#">
+                <NavLink to="/blog" className="menu-link">
                   Blog
                 </NavLink>
               </li>
             </ul>
           </nav>
           <IoIosClose onClick={handleClick} className="close" />
-        </div>
+        </div> */}
 
         <Nav handleClick={handleClick} active={isActive} />
 
