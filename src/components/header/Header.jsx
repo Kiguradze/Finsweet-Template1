@@ -21,64 +21,16 @@ const Header = ({
     setIsActive(!isActive);
   };
 
-  // useEffect(() => {
-  //   if (isActive) {
-  //     document.body.classList.add("disable-scroll");
-  //   } else {
-  //     document.body.classList.remove("disable-scroll");
-  //   }
-
-  //   return () => {
-  //     document.body.classList.remove("disable-scroll");
-  //   };
-  // }, [isActive]);
-
   return (
     <div className="header">
       <div className="container">
         <Menu isActive={isActive} handleClick={handleClick} />
-        {/* <div className={`menu ${isActive ? "isActive" : ""}`}>
-          <nav className="menu-items">
-            <ul className="menu-list" onClick={handleClick}>
-              <li className="menu-list-item">
-                <NavLink to="/" exact className="menu-link">
-                  Home
-                </NavLink>
-              </li>
-              <li className="menu-list-item">
-                <NavLink to="/product" className="menu-link">
-                  Product
-                </NavLink>
-              </li>
-              <li className="menu-list-item">
-                <NavLink to="/pricing" className="menu-link">
-                  Pricing
-                </NavLink>
-              </li>
-              <li className="menu-list-item">
-                <NavLink to="/about" className="menu-link">
-                  About Us
-                </NavLink>
-              </li>
-              <li className="menu-list-item">
-                <NavLink to="/contact" className="menu-link">
-                  Contact
-                </NavLink>
-              </li>
-              <li className="menu-list-item">
-                <NavLink to="/blog" className="menu-link">
-                  Blog
-                </NavLink>
-              </li>
-            </ul>
-          </nav>
-          <IoIosClose onClick={handleClick} className="close" />
-        </div> */}
 
         <Nav handleClick={handleClick} active={isActive} />
 
         <div className={image ? "hero-section" : "hero-section without-image"}>
           <div className="hero-text">
+            {date && <span className="hero-date">{date}</span>}
             <h1>{title}</h1>
             <p>{desk}</p>
 
@@ -87,6 +39,25 @@ const Header = ({
                 <button className="free-btn">{buttonLabel1}</button>
                 <button className="price-btn">{buttonLabel2}</button>
               </div>
+            )}
+            {link && (
+              <a href={link} className="hero-link">
+                Learn More
+                <svg
+                  width="17"
+                  height="15"
+                  viewBox="0 0 17 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M13.0857 6.5L8.29285 1.70718L9.70706 0.292969L16.9142 7.50008L9.70706 14.7072L8.29285 13.293L13.0858 8.5H0V6.5H13.0857Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
             )}
           </div>
 
