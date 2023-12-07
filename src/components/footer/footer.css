@@ -37,30 +37,6 @@ footer .container {
   padding: 15px 55px;
 }
 
-/* .socials {
-  display: flex;
-  align-items: center;
-  gap: 22px;
-}
-
-.socials svg {
-  cursor: pointer;
-}
-
-.socials svg path {
-  transition: all 0.2s;
-}
-
-.fb:hover path {
-  fill: #4267b2;
-}
-.inst:hover path {
-  stroke: #ee2a7b;
-}
-.twt:hover path {
-  fill: #1da1f2;
-} */
-
 .footer-main {
   display: flex;
   justify-content: space-between;

@@ -25,4 +25,28 @@
 
 .team-members {
   width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 40px;
+  row-gap: 80px;
+}
+
+@media screen and (max-width: 1328px) {
+  .team-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .our-team {
+    width: 100%;
+    text-align: center;
+  }
+
+  .team-members {
+    width: 100%;
+    justify-content: center;
+  }
 }

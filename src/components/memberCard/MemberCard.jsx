@@ -2,12 +2,12 @@ import React from "react";
 import "./memberCard.css";
 import Socials from "../socials/Socials";
 
-const MemberCard = () => {
+const MemberCard = ({ img, role, name }) => {
   return (
     <div className="member-card">
-      <img src="" alt="" />
-      <span className="role"></span>
-      <span className="name"></span>
+      <img src={img} alt="" />
+      <span className="role">{role}</span>
+      <span className="name">{name}</span>
       <Socials />
     </div>
   );
