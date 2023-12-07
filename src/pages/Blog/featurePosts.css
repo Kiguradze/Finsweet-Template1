@@ -1,0 +1,25 @@
+.feature-posts {
+  margin-top: 128px;
+}
+
+.feature-posts h1 {
+  margin-bottom: 80px;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.posts-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+@media screen and (max-width: 345px) {
+  .feature-posts h1 {
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+}

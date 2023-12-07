@@ -2,6 +2,7 @@ import React from "react";
 import "./blog.css";
 import Header from "../../components/header/Header";
 import blogHeroImage from "../../assets/blogHeroImage.png";
+import FeaturePosts from "./FeaturePosts";
 
 const Blog = () => {
   const date = "29 May 2021";
@@ -16,6 +17,7 @@ const Blog = () => {
         link={"#"}
         image={blogHeroImage}
       />
+      <FeaturePosts />
     </>
   );
 };

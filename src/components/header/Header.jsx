@@ -2,8 +2,8 @@ import { useState } from "react";
 // import { NavLink } from "react-router-dom";
 // import { IoIosClose } from "react-icons/io";
 import Nav from "./nav/Nav";
-import "./header.css";
 import Menu from "../menu/Menu";
+import "./header.css";
 
 const Header = ({
   title,
