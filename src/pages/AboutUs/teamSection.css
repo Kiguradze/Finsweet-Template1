@@ -1,0 +1,28 @@
+.team-section {
+  margin-top: 128px;
+}
+
+.team-section .container {
+  display: flex;
+}
+
+.our-team {
+  width: 25%;
+}
+
+.our-team h1 {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.our-team p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgba(91, 91, 91, 1);
+}
+
+.team-members {
+  width: 75%;
+}

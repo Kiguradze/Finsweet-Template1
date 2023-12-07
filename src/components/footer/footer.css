@@ -37,7 +37,7 @@ footer .container {
   padding: 15px 55px;
 }
 
-.socials {
+/* .socials {
   display: flex;
   align-items: center;
   gap: 22px;
@@ -59,7 +59,7 @@ footer .container {
 }
 .twt:hover path {
   fill: #1da1f2;
-}
+} */
 
 .footer-main {
   display: flex;

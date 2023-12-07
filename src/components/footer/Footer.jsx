@@ -1,3 +1,4 @@
+import Socials from "../socials/Socials";
 import "./footer.css";
 
 const Footer = () => {
@@ -12,7 +13,8 @@ const Footer = () => {
           <button className="footer-btn">View Pricing</button>
         </div>
         <div className="footer-main">
-          <div className="socials">
+          <Socials />
+          {/* <div className="socials">
             <svg
               className="fb"
               width="10"
@@ -83,7 +85,7 @@ const Footer = () => {
                 fill="#5B5B5B"
               />
             </svg>
-          </div>
+          </div> */}
 
           <div className="list">
             <ul className="company">

@@ -1,0 +1,63 @@
+.about {
+  margin-top: 128px;
+}
+
+.about h2 {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.about p {
+  max-width: 851px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgba(91, 91, 91, 1);
+}
+
+.about .desk {
+  max-width: 1060px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(91, 91, 91, 1);
+}
+
+.about .desk span {
+  display: block;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+}
+
+.about-image {
+  margin: 80px 0;
+}
+
+.about-image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    text-align: center;
+  }
+
+  .about h2 {
+    font-size: 28px;
+  }
+
+  .about p {
+    font-size: 16px;
+    line-height: unset;
+    margin-bottom: 40px;
+  }
+
+  .about .desk {
+    font-size: 18px;
+  }
+
+  .about-image {
+    display: none;
+  }
+}
