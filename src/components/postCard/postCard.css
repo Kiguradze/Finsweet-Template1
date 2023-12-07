@@ -1,0 +1,16 @@
+.post-card {
+  max-width: 447px;
+}
+
+.post-card h3 {
+  margin-top: 40px;
+}
+
+.post-card p {
+  margin-top: 24px;
+}
+
+.post-card a {
+  display: block;
+  margin-top: 32px;
+}
