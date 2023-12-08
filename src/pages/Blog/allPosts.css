@@ -1,0 +1,17 @@
+.all-posts {
+  margin-top: 128px;
+}
+
+.all-posts h1 {
+  margin-bottom: 80px;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+@media screen and (max-width: 345px) {
+  .all-posts h1 {
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+}

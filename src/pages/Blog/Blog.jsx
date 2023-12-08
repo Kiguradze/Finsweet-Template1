@@ -3,6 +3,7 @@ import "./blog.css";
 import Header from "../../components/header/Header";
 import blogHeroImage from "../../assets/blogHeroImage.png";
 import FeaturePosts from "./FeaturePosts";
+import AllPosts from "./AllPosts";
 
 const Blog = () => {
   const date = "29 May 2021";
@@ -18,6 +19,7 @@ const Blog = () => {
         image={blogHeroImage}
       />
       <FeaturePosts />
+      <AllPosts />
     </>
   );
 };
