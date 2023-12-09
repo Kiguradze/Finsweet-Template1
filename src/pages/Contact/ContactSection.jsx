@@ -1,4 +1,3 @@
-import React from "react";
 import "./contactSection.css";
 import shape from "../../assets/contactShape.png";
 

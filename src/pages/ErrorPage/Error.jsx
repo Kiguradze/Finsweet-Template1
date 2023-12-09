@@ -1,11 +1,10 @@
 import { useState } from "react";
-import "./contact.css";
+import "./error.css";
 import Menu from "../../components/menu/Menu";
 import Nav from "../../components/header/nav/Nav";
-import ContactSection from "./ContactSection";
-import Footer from "../../components/footer/Footer";
+import Content from "../../pages/ErrorPage/content";
 
-const Contact = () => {
+const Error = () => {
   const [isActive, setIsActive] = useState(false);
 
   const handleClick = () => {
@@ -13,15 +12,14 @@ const Contact = () => {
   };
 
   return (
-    <>
+    <div className="pageNotfound">
       <Menu isActive={isActive} handleClick={handleClick} />
       <div className="container">
         <Nav isActive={isActive} handleClick={handleClick} />
       </div>
-      <ContactSection />
-      <Footer />
-    </>
+      <Content />
+    </div>
   );
 };
 
-export default Contact;
+export default Error;

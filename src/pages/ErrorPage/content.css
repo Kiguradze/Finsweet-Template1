@@ -1,0 +1,55 @@
+.errorPage-content {
+  width: 100%;
+  margin-top: 189px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.errorPage-content span {
+  margin-top: 32px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #232ed1;
+}
+
+.errorPage-content h1 {
+  margin-top: 24px;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -3px;
+  color: #0d1317;
+  text-align: center;
+}
+
+.errorPage-content p {
+  max-width: 378px;
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 171%;
+  text-align: center;
+  color: #5b5b5b;
+}
+
+.errorPage-content a {
+  margin-top: 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.errorPage-content button {
+  padding: 18px 40px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  background: #f24c27;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.errorPage-content a:hover button {
+  background-color: #8f2b15;
+}
