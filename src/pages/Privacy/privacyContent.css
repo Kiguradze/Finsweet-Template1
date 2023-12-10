@@ -60,3 +60,17 @@ h3 {
     max-width: 100%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .privacy-content h1 {
+    font-size: 40px;
+  }
+
+  .privacy-content h2 {
+    font-size: 30px;
+  }
+
+  .privacy-content h3 {
+    font-size: ;
+  }
+}
