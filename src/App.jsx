@@ -7,10 +7,12 @@ import Blog from "./pages/Blog/Blog";
 import Contact from "./pages/Contact/Contact";
 import Error from "./pages/ErrorPage/Error";
 import Privacy from "./pages/Privacy/Privacy";
+import ScrollToTop from "./utils/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
