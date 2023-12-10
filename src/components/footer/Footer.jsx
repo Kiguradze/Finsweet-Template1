@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Socials from "../socials/Socials";
 import "./footer.css";
 
@@ -19,33 +20,33 @@ const Footer = () => {
             <ul className="company">
               <p>Company</p>
               <li className="list-item">
-                <a className="link" href="#">
+                <Link className="link" to="/product">
                   Product
-                </a>
+                </Link>
               </li>
               <li className="list-item">
-                <a className="link" href="#">
+                <Link className="link" to="/pricing">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li className="list-item">
-                <a className="link" href="#">
+                <Link className="link" to="/about">
                   About Us
-                </a>
+                </Link>
               </li>
             </ul>
 
             <ul className="company">
               <p>Legal</p>
               <li className="list-item">
-                <a className="link" href="#">
+                <Link className="link" to="/privacy">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li className="list-item">
-                <a className="link" href="#">
+                <Link className="link" to="*">
                   404
-                </a>
+                </Link>
               </li>
               <li className="list-item">
                 <a className="link" href="#">
@@ -57,9 +58,9 @@ const Footer = () => {
             <ul className="company">
               <p>Reach Us</p>
               <li className="list-item">
-                <a className="link" href="#">
+                <Link className="link" to="/contact">
                   Contact Us
-                </a>
+                </Link>
               </li>
               <li className="list-item">
                 <a className="link" href="#">
